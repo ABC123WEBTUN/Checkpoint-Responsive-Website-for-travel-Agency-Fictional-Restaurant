@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="travel-styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">
+                <i class="fas fa-plane me-2 text-info"></i>
+                Wanderlust
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tours">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="display-1 fw-bold text-white mb-4 animate-fade-up">
+                        Explore the World
+                    </h1>
+                    <p class="lead text-white mb-5 animate-fade-up-delay fs-4">
+                        Discover breathtaking destinations and create unforgettable memories with our expertly crafted travel experiences
+                    </p>
+                    <a href="#destinations" class="btn btn-info btn-lg px-5 py-3 me-3 animate-fade-up-delay-2">
+                        <i class="fas fa-compass me-2"></i>
+                        Explore Destinations
+                    </a>
+                    <a href="#tours" class="btn btn-outline-light btn-lg px-5 py-3 animate-fade-up-delay-2">
+                        <i class="fas fa-map me-2"></i>
+                        View Tours
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 fw-bold mb-3">Popular Destinations</h2>
+                    <p class="lead text-muted">Discover the world's most amazing places</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card destination-card h-100 border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=500" 
+                                 class="card-img-top destination-img" alt="Paris, France">
+                            <div class="destination-overlay">
+                                <div class="destination-info">
+                                    <h5 class="text-white fw-bold">Paris, France</h5>
+                                    <p class="text-white-50 mb-0">City of Light</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Romantic Paris</h5>
+                            <p class="card-text flex-grow-1 text-muted">
+                                Experience the magic of Paris with visits to the Eiffel Tower, Louvre Museum, 
+                                and charming Montmartre district.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-info fw-bold fs-4">From $1,299</span>
+                                <button class="btn btn-outline-info">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card destination-card h-100 border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1118448/pexels-photo-1118448.jpeg?auto=compress&cs=tinysrgb&w=500" 
+                                 class="card-img-top destination-img" alt="Tokyo, Japan">
+                            <div class="destination-overlay">
+                                <div class="destination-info">
+                                    <h5 class="text-white fw-bold">Tokyo, Japan</h5>
+                                    <p class="text-white-50 mb-0">Modern Metropolis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Dynamic Tokyo</h5>
+                            <p class="card-text flex-grow-1 text-muted">
+                                Immerse yourself in Japanese culture, from ancient temples to cutting-edge technology 
+                                and world-class cuisine.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-info fw-bold fs-4">From $1,899</span>
+                                <button class="btn btn-outline-info">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card destination-card h-100 border-0 shadow">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.pexels.com/photos/1878293/pexels-photo-1878293.jpeg?auto=compress&cs=tinysrgb&w=500" 
+                                 class="card-img-top destination-img" alt="Santorini, Greece">
+                            <div class="destination-overlay">
+                                <div class="destination-info">
+                                    <h5 class="text-white fw-bold">Santorini, Greece</h5>
+                                    <p class="text-white-50 mb-0">Island Paradise</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Scenic Santorini</h5>
+                            <p class="card-text flex-grow-1 text-muted">
+                                Witness breathtaking sunsets, explore whitewashed villages, and relax on unique 
+                                volcanic beaches.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-info fw-bold fs-4">From $999</span>
+                                <button class="btn btn-outline-info">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 fw-bold mb-3">Tour Packages</h2>
+                    <p class="lead text-muted">Choose from our carefully curated travel experiences</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="toursAccordion">
+                        <div class="accordion-item tour-accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#tour1">
+                                    <i class="fas fa-mountain me-3 text-success"></i>
+                                    Adventure Tours
+                                </button>
+                            </h2>
+                            <div id="tour1" class="accordion-collapse collapse show" data-bs-parent="#toursAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h6 class="fw-bold mb-3">Extreme Adventures Await</h6>
+                                            <p class="mb-3">
+                                                Perfect for thrill-seekers! Experience mountain climbing, white-water rafting, 
+                                                bungee jumping, and zip-lining in some of the world's most spectacular locations.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fas fa-check text-success me-2"></i> Professional guides</li>
+                                                <li><i class="fas fa-check text-success me-2"></i> Safety equipment included</li>
+                                                <li><i class="fas fa-check text-success me-2"></i> Small group sizes</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <div class="price-display">
+                                                <span class="display-6 fw-bold text-success">$2,499</span>
+                                                <p class="text-muted mb-3">7 days package</p>
+                                                <a href="#contact" class="btn btn-success">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item tour-accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#tour2">
+                                    <i class="fas fa-heart me-3 text-danger"></i>
+                                    Romantic Getaways
+                                </button>
+                            </h2>
+                            <div id="tour2" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h6 class="fw-bold mb-3">Perfect for Couples</h6>
+                                            <p class="mb-3">
+                                                Intimate experiences designed for couples. Enjoy candlelit dinners, sunset cruises, 
+                                                couples spa treatments, and private tours in romantic destinations.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fas fa-check text-danger me-2"></i> Luxury accommodations</li>
+                                                <li><i class="fas fa-check text-danger me-2"></i> Private experiences</li>
+                                                <li><i class="fas fa-check text-danger me-2"></i> Complimentary champagne</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <div class="price-display">
+                                                <span class="display-6 fw-bold text-danger">$3,299</span>
+                                                <p class="text-muted mb-3">5 days package</p>
+                                                <a href="#contact" class="btn btn-danger">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item tour-accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" 
+                                        data-bs-target="#tour3">
+                                    <i class="fas fa-users me-3 text-warning"></i>
+                                    Family Vacations
+                                </button>
+                            </h2>
+                            <div id="tour3" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h6 class="fw-bold mb-3">Fun for the Whole Family</h6>
+                                            <p class="mb-3">
+                                                Family-friendly adventures with activities for all ages. Theme parks, wildlife safaris, 
+                                                cultural experiences, and educational tours that create lasting memories.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fas fa-check text-warning me-2"></i> Kid-friendly activities</li>
+                                                <li><i class="fas fa-check text-warning me-2"></i> Family accommodations</li>
+                                                <li><i class="fas fa-check text-warning me-2"></i> Educational experiences</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <div class="price-display">
+                                                <span class="display-6 fw-bold text-warning">$1,999</span>
+                                                <p class="text-muted mb-3">6 days package</p>
+                                                <a href="#contact" class="btn btn-warning">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-4 fw-bold mb-3">Plan Your Journey</h2>
+                    <p class="lead text-muted">Let us help you create your perfect travel experience</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label fw-bold">Full Name</label>
+                                <input type="text" class="form-control form-control-lg" id="name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label fw-bold">Email Address</label>
+                                <input type="email" class="form-control form-control-lg" id="email" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="destination" class="form-label fw-bold">Destination of Interest</label>
+                                <select class="form-select form-control-lg" id="destination" required>
+                                    <option value="">Choose a destination...</option>
+                                    <option value="paris">Paris, France</option>
+                                    <option value="tokyo">Tokyo, Japan</option>
+                                    <option value="santorini">Santorini, Greece</option>
+                                    <option value="other">Other destination</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label fw-bold">Tell us about your dream trip</label>
+                                <textarea class="form-control" id="message" rows="5" 
+                                         placeholder="Describe your ideal travel experience, preferred dates, group size, etc." required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-info btn-lg px-5 py-3">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Start Planning
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-plane me-2 text-info"></i>
+                        Wanderlust Travel Agency
+                    </h5>
+                    <p class="text-white-50 mb-3">
+                        Creating unforgettable travel experiences since 2010.
+                    </p>
+                    <p class="text-white-50">
+                        © 2025 Wanderlust Travel Agency. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <h6 class="mb-3">Connect With Us</h6>
+                    <div class="social-links mb-3">
+                        <a href="#" class="text-white me-3 fs-4">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white me-3 fs-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white me-3 fs-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white fs-4">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <p class="text-white-50 small">
+                        <i class="fas fa-phone me-2"></i> +1 (555) 123-4567<br>
+                        <i class="fas fa-envelope me-2"></i> hello@wanderlust.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="travel-script.js"></script>
+</body>
+</html>
